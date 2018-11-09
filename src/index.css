@@ -1,0 +1,59 @@
+button {
+    margin: 20px;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+input[type='text']{
+    margin: 20px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-image: url('./img/bg.jpeg');
+}
+
+.main {
+    height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.weather {
+    margin-top: 50px;
+    height: 10vh;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.alert-light {
+    box-shadow: 10px 10px #333333;
+    background-color: #245499;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media screen and (min-width: 321px) {
+    .main {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    .main {
+        padding: 100px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .main {
+        padding: 200px;
+    }
+}
